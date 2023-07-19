@@ -8,7 +8,13 @@
       close
     </mat-icon>
       </button>
-    
+    <div class="contact">
+     <!-- <a href="#" matTooltip="Click here to learn more" matTooltipPosition="above">Hover over me!</a> idea for hover suggestions
+     -->
+<a matTooltipPosition="above">
+<img src="../assets/logos/LI-In-Bug.png" style="height: 20px; width: 20px; background-color: white;">
+</a>
+    </div>
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav">
@@ -33,20 +39,23 @@
     </button>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div class="content mat-elevation-z4">
+    <div class="content mat-elevation-z4" >
      
-      <router-outlet></router-outlet>
+      <router-outlet>
+        <ng-component select="header"></ng-component>
+        <ng-component select="body"></ng-component>
+      </router-outlet>
      <span class="themes">
       <button mat-icon-button  >
         <mat-icon>settings</mat-icon>
+
        </button> 
+
+      
      </span>
       
     
     </div>
-    <span class="themes">
-   
-    </span>
   
   </mat-sidenav-content>
  

@@ -13,7 +13,7 @@ mat-sidenav{
     text-align: center;
 }
 .content{
-    height: calc(100vh - 98px);
+   /* height: calc(200vh - 98px);*/
     margin: 16px;
     margin-left: 32px;
     display: flex;
@@ -33,7 +33,19 @@ mat-sidenav-container{
     justify-content: flex-start;
     font-size: 1rem;
 }
+.contact {
+    border-radius:30px;
 
+}
+/* Optional CSS for customizing the tooltip appearance */
+.mat-tooltip {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+  
 .menu-button mat-icon {
     margin-right: 8px;
 }

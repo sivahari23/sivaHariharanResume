@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
-  title = "Profile Summary:"
+  title = "Profile Summary"
 
   list = [{
     point: `Highly skilled Front-End Developer with 2+ years of experience designing,

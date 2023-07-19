@@ -15,7 +15,8 @@ import{MatIconModule} from '@angular/material/icon';
 import{MatDividerModule} from '@angular/material/divider';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatListModule } from '@angular/material/list'
+import { MatListModule } from '@angular/material/list';
+import { MatTooltipModule } from '@angular/material/tooltip'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { MatListModule } from '@angular/material/list'
     MatDividerModule,
     LayoutModule,
     MatListModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

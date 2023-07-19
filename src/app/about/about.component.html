@@ -1,5 +1,7 @@
-{{title}}
-<div *ngFor="let details of list">
+<div class="container">
+<div class="header"> <b> {{title | uppercase}} </b></div>
+<div class="body" *ngFor="let details of list">
     <li>{{details.point}}
     </li>
+</div>
 </div>
